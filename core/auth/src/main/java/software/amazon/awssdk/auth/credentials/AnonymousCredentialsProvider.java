@@ -18,6 +18,7 @@ package software.amazon.awssdk.auth.credentials;
 import software.amazon.awssdk.annotations.SdkPublicApi;
 import software.amazon.awssdk.utils.ToString;
 
+
 /**
  * Credentials provider that always returns anonymous {@link AwsCredentials}. Anonymous AWS credentials result in un-authenticated
  * requests and will fail unless the resource or API's policy has been configured to specifically allow anonymous access.
